@@ -8,12 +8,10 @@ modérateurs ne vérifient que les cas douteux. L'objectif du projet est d'indus
 
 ## Équipe
 
-| Membre | Responsabilité |
-|---|---|
-| Asma Jleili | Données et versionnement (DVC) |
-| Farah Charfeddine | Modèle et suivi des expériences (MLflow) |
-| Ranim Khalifa | API et conteneurs (FastAPI, Docker) |
-| Chaima Ben Radhia | CI/CD, orchestration et monitoring (GitHub Actions, Prefect, Evidently) |
+| Asma Jleili |
+| Farah Charfeddine | 
+| Ranim Khalifa | 
+| Chaima Ben Radhia | 
 
 ## Données
 
