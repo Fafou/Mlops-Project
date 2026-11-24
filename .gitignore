@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.pytest_cache/
+.ruff_cache/
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# Modèles et données (versionnés avec DVC, pas avec Git)
+models/*.joblib
+/data/raw/
+/data/processed/
