@@ -1,0 +1,39 @@
+[tool.poetry]
+name = "toxiguard"
+version = "0.1.0"
+description = "Détection de commentaires toxiques - plateforme MLOps de bout en bout"
+authors = ["Asma Jleili", "Farah Charfeddine", "Ranim Khalifa", "Chaima Ben Radhia"]
+readme = "README.md"
+packages = [{ include = "toxiguard", from = "src" }]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+pandas = "^2.2"
+scikit-learn = "^1.5"
+joblib = "^1.4"
+mlflow = "^2.16"
+fastapi = "^0.115"
+uvicorn = "^0.30"
+pydantic = "^2.8"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3"
+ruff = "^0.6"
+pre-commit = "^3.8"
+dvc = "^3.55"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+line-length = 110
+target-version = "py310"
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
