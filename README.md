@@ -8,10 +8,12 @@ modérateurs ne vérifient que les cas douteux. L'objectif du projet est d'indus
 
 ## Équipe
 
-| Asma Jleili |
-| Farah Charfeddine | 
-| Ranim Khalifa | 
-| Chaima Ben Radhia | 
+| Membre | Rôle |
+|---|---|
+| Asma | Données, DVC (+ remote) & orchestration Prefect |
+| Farah | Modèle, MLflow (Model Registry) & qualité du code (Poetry, pre-commit, Ruff) |
+| Ranim | API FastAPI (Pydantic), Docker Compose & tests d'intégration |
+| Chaima | CI/CD GitHub Actions + CML & monitoring Evidently |
 
 ## Données
 
